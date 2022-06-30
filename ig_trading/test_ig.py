@@ -1,8 +1,13 @@
 from trading_ig.rest import IGService
 from trading_ig_config import config
 
-print(config.acc_type)
-print(config.username)
+for a in dir(config):
+    print(a, type(getattr(config, a)), getattr(config, a))
+
+ig_service = IGService(config.username, config.password, config.api_key)
+print(ig_service)
+ig = ig_service.create_session()
+print(ig)
 
 '''
 import trading_ig
