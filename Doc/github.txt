@@ -1,0 +1,19 @@
+I don't think github pays attention to ssh keys
+After failing to push with ssh public key copied into github I generated a token as per
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+And then said:
+
+ian@star Doc % git push
+Username for 'https://github.com': stellated
+Password for 'https://stellated@github.com': <pasted the token here>
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 80.91 KiB | 20.23 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/stellated/qdata
+   fb8a8bb..4b1301a  main -> main
+
+I had to use the token again to push with PyCharm, so I need to save it somewhere.
+It's in ~/.zshrc
