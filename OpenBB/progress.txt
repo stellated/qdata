@@ -1,0 +1,6 @@
+openbb.co has a bad security certificate, Firefox is warning about theft of credit card details, etc.
+So be cautious with any info that you don't want to make public.
+
+Initial docs at https://openbb-finance.github.io/OpenBBTerminal/#accessing-the-openbb-terminal
+
+API docs at https://openbb-finance.github.io/OpenBBTerminal/api/

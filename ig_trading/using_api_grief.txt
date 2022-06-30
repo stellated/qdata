@@ -1,0 +1,16 @@
+keyname: ian1
+
+Found several unanswered questions about account numbers
+https://community.ig.com/forums/topic/11639-what-are-my-ig-account-details/
+https://community.ig.com/forums/topic/7504-account-number/
+https://community.ig.com/profile/75249-markusher/content/
+
+I think it's the five-character Account ID visible on the dashboard.  
+Trying to open my share trading account in demo mode fails with error 403, so will create a demo account and point my code towards that.
+
+Clicking the "open a demo account button refreshes the dashboard display, and that button is no longer visible.  Clicking the "Deom accounts" tab gets error message: "Demo accounts are currently unavailable.  Try again later."  Clicking browser refresh shows me a deom account with $20K of pretend money,
+Changing IC_SERVICE_ACC_NUMBER to this demo account's ID and trying again.
+
+Still getting error 403 with text {"errorCode":"error.security.api-key-invalid"}
+
+Will wait 24 hours in case some overnight process needs to run before things work.
