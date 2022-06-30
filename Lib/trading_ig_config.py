@@ -1,6 +1,6 @@
 import os
 
-class config(object):
+class config:
     username = os.environ['IG_SERVICE_USERNAME']
     password = os.environ['IG_SERVICE_PASSWORD']
     api_key = os.environ['IG_SERVICE_API_KEY']
